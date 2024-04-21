@@ -1,4 +1,4 @@
-# StreamDeck Package Action
+![StreamDeck package banner image](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1713716273/foss/streamdeck-package.png)
 
 This repo contains an action for packaging StreamDeck plugins with the [Elgato Maker CLI](https://github.com/elgatosf/cli).
 
@@ -40,3 +40,7 @@ jobs:
           input-directory: "path/to/plugin/dir"
           output-directory: "path/to/output/dir"
 ```
+
+## Attribution
+
+Icons by [Icons8](https://icons8.com).
