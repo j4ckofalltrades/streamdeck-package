@@ -20,7 +20,7 @@ inputs:
 
 ## Usage
 
-This actions will create a GitHub release that includes the packaged plugin.
+This action will package your StreamDeck plugin and create a release.
 
 ```yaml
 name: Package plugin
@@ -32,7 +32,7 @@ on:
 
 jobs:
   package-plugin:
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: j4ckofalltrades/streamdeck-package@v0.0.1
