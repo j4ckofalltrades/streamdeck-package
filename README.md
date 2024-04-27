@@ -1,6 +1,9 @@
-![StreamDeck package banner image](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1713716273/foss/streamdeck-package.png)
+![Stream Deck package banner image](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1713716273/foss/streamdeck-package.png)
 
-This repo contains an action for packaging StreamDeck plugins with the [Elgato Maker CLI](https://github.com/elgatosf/cli).
+![Version](https://img.shields.io/github/v/tag/j4ckofalltrades/streamdeck-package?label=version)
+![License](https://img.shields.io/github/license/j4ckofalltrades/streamdeck-package)
+
+This repo contains an action for packaging Stream Deck plugins with the [Elgato Maker CLI](https://github.com/elgatosf/cli).
 
 > [!NOTE]  
 > The Elgato Maker CLI is currently in beta.
@@ -20,10 +23,10 @@ inputs:
 
 ## Usage
 
-This action will package your StreamDeck plugin and create a release.
+This action will package your Stream Deck plugin and create a GitHub release.
 
 ```yaml
-name: Package plugin
+name: Package Stream Deck plugin
 on:
   push:
     tags:
@@ -43,4 +46,4 @@ jobs:
 
 ## Attribution
 
-Icons by [Icons8](https://icons8.com).
+Icons by [Icons8](https://icons8.com)
