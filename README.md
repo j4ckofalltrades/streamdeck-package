@@ -5,9 +5,6 @@
 
 This repo contains an action for packaging Stream Deck plugins with the [Elgato Maker CLI](https://github.com/elgatosf/cli).
 
-> [!NOTE]  
-> The Elgato Maker CLI is currently in beta.
-
 ## Input
 
 ```yaml
