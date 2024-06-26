@@ -22,7 +22,7 @@ runs:
     - name: Package the Stream Deck plugin
       shell: bash
       run: |
-        npm install -g @elgato/cli@beta
+        npm install -g @elgato/cli@0.3.0
         streamdeck validate '${{ inputs.input-directory }}' --no-update-check
         streamdeck pack '${{ inputs.input-directory }}' --output '${{ inputs.output-directory }}' --no-update-check
     - name: Upload the plugin artifact
